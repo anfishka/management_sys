@@ -1,0 +1,35 @@
+{
+    "products": [
+        {
+            "classification": {
+                "hooks": {
+                    "product_code": "#2134567",
+                    "name": "hooks 12 Jim Stream",
+                    "img": "../src/img_db/Carp-Fishing-Hooks.jpg",
+                    "quantity": 50,
+                    "supplier": "KingMan",
+                    "availabilityInStoresByAddress": [
+                        {
+                            "city": "Kharkiv",
+                            "address": "st.Raisee 32",
+                            "quantity": 20
+                        },
+                        {
+                            "city": "Kharkiv",
+                            "address": "st.Copugh 35 ",
+                            "quantity": 20
+                        },
+                        {
+                            "city": "Kharkiv",
+                            "address": "st.Vivo 45",
+                            "quantity": 10
+                        }
+                    ]
+                }
+            },
+            "purchaseCost": 45.50,
+            "maxDiscount": 20,
+            "sellingPrice": 60.43
+        }
+    ]
+}
