@@ -1,0 +1,94 @@
+{
+    "products": [
+        {
+            "classification": {
+                "hooks": [
+                   {
+                    "product_code": "#2134567",
+                    "name": "hooks 12 Jim Stream",
+                    "img": "./src/img_db/Carp-Fishing-Hooks.jpg",
+                    "quantity": 50,
+                    "supplier": "KingMan",
+                    "availabilityInStoresByAddress": [
+                        {
+                            "city": "Kharkiv",
+                            "address": "st.Raisee 32",
+                            "quantity": 20
+                        },
+                        {
+                            "city": "Kharkiv",
+                            "address": "st.Copugh 35 ",
+                            "quantity": 20
+                        },
+                        {
+                            "city": "Kharkiv",
+                            "address": "st.Vivo 45",
+                            "quantity": 10
+                        }
+                    ],
+                    "sellingPrice": 60.43,
+                    "purchaseCost": 45.50,
+            "maxDiscount": 20
+
+                },
+                {
+                    "product_code": "OwnerCarpDown51458",
+                    "name": "Owner Carp Down 51458",
+                    "img": "../OwnerCarpDown51458.jpg",
+                    "quantity": 60,
+                    "supplier": "Owner Fishing",
+                    "availabilityInStoresByAddress": [
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 1",
+                        "quantity": 30
+                      },
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 2",
+                        "quantity": 20
+                      },
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 3",
+                        "quantity": 10
+                      }
+                    ],
+                    "sellingPrice": 70.50,
+                    "purchaseCost": 55.20,
+                    "maxDiscount": 15
+                  },
+                  {
+                    "product_code": "OwnerAmanoTenkaraWithEye50152",
+                    "name": "Owner Amano Tenkara With Eye 50152",
+                    "img": "../OwnerAmanoTenkaraWithEye50152.jpg",
+                    "quantity": 45,
+                    "supplier": "Owner Fishing",
+                    "availabilityInStoresByAddress": [
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 4",
+                        "quantity": 15
+                      },
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 5",
+                        "quantity": 20
+                      },
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 6",
+                        "quantity": 10
+                      }
+                    ],
+                    "sellingPrice": 80.90,
+                    "purchaseCost": 65.30,
+                    "maxDiscount": 18
+                  }
+                ]
+               
+            }
+        
+        }
+    ]
+}
