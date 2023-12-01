@@ -1,14 +1,21 @@
-document.addEventListener('DOMContentLoaded', () => {
-   fetch('/products.json')
-.then(response => response.json())
-.then(data => {
-    const hooks = data.products[0].classification.hooks;
-    const product = hooks[0];
-    document.getElementById('product-image').src = product.img;
-    document.getElementById('product-name').textContent = product.name;
-    document.getElementById('product-price').textContent =`Price: ${product.sellingPrice}` ;
-  
-})
-.catch(error => console.log('Error fetching data:', error)); 
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("/products.json")
+    .then((response) => response.json())
+    .then((data) => {
+      function createMarkup() {
+        const hooks = data.products[0].classification.hooks;
+        const productCard = hooks.map((element) => {
+          return `<div class="product-card">
+                <img src="${element.img}" alt="${element.name}">
+                <h2>${element.name}</h2>
+                <p>Price: ${element.sellingPrice}</p>
+                </div> `;
+        });
+        const productCardHTML = productCard.join("")
+        const productContainer = document.getElementById("product-container");
+        productContainer.innerHTML = productCardHTML;
+      }
+      createMarkup();
+    })
+    .catch((error) => console.log("Error fetching data:", error));
 });
-
