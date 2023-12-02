@@ -139,7 +139,78 @@
                     "purchaseCost": 65.30,
                     "maxDiscount": 18
                   }
-                ]
+                ],
+                "reel":[
+
+                ],
+                "fishingLine":
+                [
+
+                ],
+                "bait":[
+                    {
+                    "product_code": "ПрикормкаFishDreamClubГейзер",
+                    "name": "Прикормка Fish Dream Club Гейзер",
+                    "img": "/Прикормка Fish Dream Club Гейзер.jpg",
+                    "quantity": 45,
+                    "supplier": "Fishdream",
+                    "availabilityInStoresByAddress": [
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 4",
+                        "quantity": 15
+                      },
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 5",
+                        "quantity": 20
+                      },
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 6",
+                        "quantity": 10
+                      }
+                    ],
+                    "sellingPrice": 80.90,
+                    "purchaseCost": 65.30,
+                    "maxDiscount": 18
+                  },
+                  {
+                    "product_code": "ПрикормкаFishDreamClubГроссКарп",
+                    "name": "Прикормка Fish Dream Club Гросс Карп",
+                    "img": "/Прикормка Fish Dream Club Гросс Карп.jpg",
+                    "quantity": 45,
+                    "supplier": "Fishdream",
+                    "availabilityInStoresByAddress": [
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 4",
+                        "quantity": 15
+                      },
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 5",
+                        "quantity": 20
+                      },
+                      {
+                        "city": "Kharkiv",
+                        "address": "st.Some Address 6",
+                        "quantity": 10
+                      }
+                    ],
+                    "sellingPrice": 80.90,
+                    "purchaseCost": 65.30,
+                    "maxDiscount": 18
+                  }
+
+
+
+                    
+                ],
+                "assembling":[
+
+                ],
+                "rods":[]
                
             }
         

@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       function createMarkup() {
         const hooks = data.products[0].classification.hooks;
-        const productCard = hooks.map((element) => {
+        const bait =  data.products[0].classification.bait;
+
+        const productCard = bait.map((element) => {
           return `<div class="product-card">
                 <img src="${element.img}" alt="${element.name}">
                 <h2>${element.name}</h2>
